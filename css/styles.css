@@ -1,0 +1,44 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.headerbg{
+  background: url(../assets/backgrounds/landing.jpg) no-repeat center;
+  background-size: cover;
+  height: 520px;
+}
+.drop{
+  width: 25%;
+  height: 400px;
+  position: absolute;
+}
+.logo{
+  height: 500px;
+  width: 44%;
+  margin-left:26%;
+  position: absolute;
+
+}
+.btn{
+  height: 50px;
+  width: 70px;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.logopic{
+margin-top: 7%;
+margin-left: 28%;
+}
+#logotext{
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  font-family: serif;
+  font-weight: 100;
+}
+.container{
+  margin-top: 500px;
+  height: 200px;
+  width: 25%;
+  background-color: yellow;
+}
