@@ -146,16 +146,84 @@ margin-left: 28%;
 }
 #h2drinks, #h3drinks, #pdrinks{
   text-align: right;
+  line-height: 30px;
+  margin-right: 10%;
+}
+#pdrinks{
+  font-size: 16px;
+}
+#h2drinks{
+  font-size: 30px;
+  margin-top: 10%;
+}
+#h3drinks{
+  font-size: 25px;
 }
 .drinkspicsholder{
-  margin-left: 10%;
   margin-top: 20px;
   height: 350px;
   width: 480px;
-
 }
 .drink{
 height: 350px;
 width: 240px;
+}
+.dbtn{
+  width: 170px;
+  background-color: #fff;
+  border: 3px solid green;
+  border-radius: 6px;
+  margin-left: 62%;
+}
+.mainfoodcontainer{
+  background: url(../assets/backgrounds/foodsBg.jpg) no-repeat center;
+  background-size: cover;
+  height: 600px;
+  overflow: auto;
 
+}
+.foodtabs{
+  background-color: #fff;
+  height: 370px;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 9%;
+}
+.tabsname{
+  color: #000;
+  font-size: 20px;
+  padding-left: 73px;
+}
+.fnameactive{
+  color: #ff4000;
+  font-size: 20px;
+}
+.tabsname, .fnameactive{
+  padding-left: 78.2px;
+  padding-right: 79px;
+  line-height: 40px;
+}
+.tabsdetails{
+  background-color: #fff;
+  height: 300px;
+  overflow: auto;
+}
+.tab1pic, .tab2pic, .tab3pic{
+  height: 260px;
+  width:300px;
+  margin-left: 6%;
+  margin-top: 19px;
+  background-color: #fff;
+}
+#chickenburger, #beefburger, #chickenpizza{
+  width: 100%;
+  height: 218px;
+}
+.tabpicdef{
+  color: #ff4000;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
 }
