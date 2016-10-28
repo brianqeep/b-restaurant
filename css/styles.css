@@ -2,10 +2,18 @@ body{
   padding: 0;
   margin: 0;
 }
+#h2ff{
+  font-size: 30px;
+  margin-left: 10%;
+}
+#h3ff{
+  font-size: 25px;
+  margin-left: 10%
+}
 .headerbg{
   background: url(../assets/backgrounds/landing.jpg) no-repeat center;
   background-size: cover;
-  height: 520px;
+  height: 470px;
 }
 .drop{
   width: 25%;
@@ -36,9 +44,118 @@ margin-left: 28%;
   font-family: serif;
   font-weight: 100;
 }
-.container{
-  margin-top: 500px;
-  height: 200px;
-  width: 25%;
-  background-color: yellow;
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+.happy{
+  height: 159px;
+  background-color: green;
+}
+.breakfast{
+  height: 188px;
+  background: url(../assets/foodtop/breakfast.jpg) no-repeat center;
+  background-size: cover;
+  opacity: 0.9;
+}
+.lunch{
+  height: 188px;
+  background: url(../assets/foodtop/lunch.jpg) no-repeat center;
+  background-size: cover;
+  opacity: 0.9;
+}
+.dinner{
+  height: 188px;
+  background: url(../assets/foodtop/dinner.jpg) no-repeat center;
+  opacity: 0.9;
+}
+.happy-hour{
+  height: 94px;
+  background-color: #fff;
+}
+.party-time{
+  height:94px;
+  background-color: orange;
+}
+.cols1text{
+  text-align: center;
+  margin-top: 22%;
+  font-size: 30px;
+  font-style: italic;
+  color: #fff;
+}
+.cols11text{
+  text-align: center;
+  margin-top: 8%;
+  font-size: 30px;
+  color: #fff;
+}
+.cols12text{
+  text-align: center;
+  margin-top: 8%;
+  font-size: 30px;
+  color: #000;
+}
+.fastfoodpic{
+  height: 500px;
+  background-color: #fff;
+
+}
+.fastfoodtext{
+  height: 500px;
+  background-color: #fff;
+}
+.fdtxt{
+  padding-left: 10%;
+  line-height: 30px;
+  font-size: 16px;
+}
+.fastfoodtextcontainer{
+  margin-top: 17%;
+}
+.fdbtn{
+  width: 170px;
+  background-color: #fff;
+  border: 3px solid green;
+  border-radius: 6px;
+  margin-left: 10%;
+}
+.fastpic{
+  height: 390px;
+  width: 300px;
+  margin-top: 12%;
+  margin-left: 18%;
+  background-color: green;
+  border: 6px solid white;
+}
+.fastfoodpic1{
+  height: 50%;
+  width: 380px;
+}
+.fastfoodpic2{
+  height: 50%;
+  width: 380px;
+}
+.drinkstext{
+  background-color: #fff;
+  height: 500px;
+}
+.drinkspics{
+  background-color: #fff;
+  height: 500px;
+}
+#h2drinks, #h3drinks, #pdrinks{
+  text-align: right;
+}
+.drinkspicsholder{
+  margin-left: 10%;
+  margin-top: 20px;
+  height: 350px;
+  width: 480px;
+
+}
+.drink{
+height: 350px;
+width: 240px;
+
 }
