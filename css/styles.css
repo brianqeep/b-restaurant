@@ -5,10 +5,12 @@ body{
 #h2ff{
   font-size: 30px;
   margin-left: 10%;
+  font-family: "Roboto Slab", serif;
 }
 #h3ff{
   font-size: 25px;
-  margin-left: 10%
+  margin-left: 10%;
+  font-family: "Roboto Slab", serif;
 }
 .headerbg{
   background: url(../assets/backgrounds/landing.jpg) no-repeat center;
@@ -48,6 +50,8 @@ margin-left: 28%;
   margin: 0;
   padding: 0;
 }
+
+}
 .happy{
   height: 159px;
   background-color: #fff;
@@ -59,7 +63,7 @@ margin-left: 28%;
   opacity: 1.0;
 }
 .breakfast:hover, .lunch:hover, .dinner:hover{
-  opacity: 0.8;
+  opacity: 0.5;
 }
 .lunch{
   height: 188px;
@@ -86,18 +90,21 @@ margin-left: 28%;
   font-size: 30px;
   font-style: italic;
   color: #fff;
+  font-family: "Roboto Slab", serif;
 }
 .cols11text{
   text-align: center;
   margin-top: 8%;
   font-size: 30px;
   color: #fff;
+  font-family: "Roboto Slab", serif;
 }
 .cols12text{
   text-align: center;
   margin-top: 8%;
   font-size: 30px;
   color: #000;
+  font-family: "Roboto Slab", serif;
 }
 .fastfoodpic{
   height: 500px;
@@ -111,7 +118,8 @@ margin-left: 28%;
 .fdtxt{
   padding-left: 10%;
   line-height: 30px;
-  font-size: 16px;
+  font-size: 14px;
+  font-family: "Proza Libre", sans-serif;
 }
 .fastfoodtextcontainer{
   margin-top: 17%;
@@ -124,12 +132,13 @@ margin-left: 28%;
   margin-left: 10%;
 }
 .fastpic{
-  height: 390px;
-  width: 300px;
+  height: 394px;
+  width: 504px;
   margin-top: 12%;
-  margin-left: 18%;
+  margin-left: 15%;
   background-color: green;
-  border: 6px solid white;
+  border: 7px solid white;
+  box-shadow:  0 0 10px  rgba(0,0,0,0.6);
 }
 .fastfoodpic1{
   height: 50%;
@@ -153,13 +162,16 @@ margin-left: 28%;
   margin-right: 10%;
 }
 #pdrinks{
-  font-size: 16px;
+  font-size: 14px;
+  font-family: "Proza Libre", sans-serif;
 }
 #h2drinks{
   font-size: 30px;
   margin-top: 10%;
+  font-family: "Roboto Slab", serif;
 }
 #h3drinks{
+  font-family: "Roboto Slab", serif;
   font-size: 25px;
 }
 .drinkspicsholder{
@@ -186,7 +198,7 @@ width: 240px;
 
 }
 .foodtabs{
-  background-color: #fff;
+  background-color: #d8d8d8;
   height: 370px;
   margin-top: 50px;
   margin-left: 10%;
@@ -335,4 +347,7 @@ width: 240px;
 }
 .footerlogos{
 
+}
+.hovereffect{
+  color: #fff;
 }
